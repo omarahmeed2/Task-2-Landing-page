@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons/pets.png">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid p-0">
+            <section>
+                <a class="navbar-brand me-0 ms-2" href="index.html"><img src="/icons/beagle-unscreen.gif"
+                        class="dog-logo m-0" alt=".."></a>
+                <a class="navbar-brand text-capitalize pet-shop m-0" href="index.html">pet shop</a>
+                <a class="navbar-brand ms-0 me-2" href="index.html"><img src="/icons/bird-unscreen.gif"
+                        class="bird-logo" alt=".."></a>
+            </section>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0 d-flex align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active text-capitalize nav-links" aria-current="page" href="#">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize nav-links" href="shop.html">shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize nav-links " href="dogs.html">dogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-links text-capitalize" href="cats.html">cats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-links text-capitalize" href="birds.html">birds</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-0 ms-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn  search-button" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- HEAD SECTION -->
+    <section class="head mt-2">
+        <div class="container-fluid">
+            <div class="row pt-3">
+                <div class="col-sm-12 col-md-6 col-lg-6 pt-5 ps-lg-5 ps-md-5 ">
+                    <h3 class="head-title text-capitalize pt-5">40% discount on frontline products</h3>
+                    <p><small class="head-text text-capitalize">save up to 50% of your pet products - limited
+                            time</small>
+                    </p>
+                    <button class="btn go-shop-btn  text-capitalize mt-3"><a href="shop.html"></a>go shop</button>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img src="/images/istockphoto-1296353202-170667a.jpg" class="img-fluid" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-center"data-aos="flip-up"data-aos-duration="1500">
+                    <div class="col-sm-2 d-inline-block pe-2"><img src="/icons/delivery-man.png"
+                            class="img-fluid delivery d-inline-block" alt="..."></div>
+                    <div class="col-lg-10 d-inline-block">
+                        <h5 class="delivery-text mb-0">Quality Delivery</h5> <small>In Middle East.</small>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12  d-flex align-items-center"data-aos="flip-up"data-aos-duration="1500">
+                    <div class="col-sm-2 d-inline-block pe-2"><img src="/icons/credit-card.png"
+                            class="img-fluid delivery d-inline-block" alt="..."></div>
+                    <div class="col-lg-10 d-inline-block">
+                        <h5 class="delivery-text mb-0">Safe Payment</h5> <small>100% Secure Payment.</small>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12  d-flex align-items-center"data-aos="flip-up"data-aos-duration="1500">
+                    <div class="col-sm-2 d-inline-block pe-2"><img src="/icons/return-on-investment.png"
+                            class="img-fluid delivery d-inline-block" alt="..."></div>
+                    <div class="col-lg-10 d-inline-block">
+                        <h5 class="delivery-text mb-0">30 Days Returns</h5> <small>No Quedtion Asked.</small>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12  d-flex align-items-center"data-aos="flip-up"data-aos-duration="1500">
+                    <div class="col-sm-2 d-inline-block pe-2"><img src="/icons/customer-service.png"
+                            class="img-fluid delivery d-inline-block" alt="..."></div>
+                    <div class="col-lg-10 d-inline-block">
+                        <h5 class="delivery-text mb-0">Happy Customers</h5> <small>Serving Customers For +20
+                            Years.</small>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- SHOP SECTION -->
+    <section class="shop mt-5">
+        <div class="container pt-4">
+            <div class="row">
+                <h3 class="text-capitalize text-center shop">shop</h3>
+                <div class="col-lg-4 col-md-4 col-sm-12 pt-4">
+                    <div class="card card-1"data-aos="zoom-in-up" data-aos-duration="2500">
+                        <img src="/images/9rhudG9dRaegNNDkl0Pk88DW4BS3n96yXcIBXr4Q6os.png"
+                            class="card-img-top img-fluid card-1-img" alt="...">
+                        <div class="card-body ps-3">
+                            <h6 class="card-title text-capitalize ">Groovy Carrier Box For Medium Sized Animals 60×30cm
+                            </h6>
+                            <p class="card-text text-uppercase">500 egp<small><del class="ps-2">700egp</del></small></p>
+                            <button class="btn btn-info text-capitalize">buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 pt-4">
+                    <div class="card card-2"data-aos="zoom-in-up" data-aos-duration="2500">
+                        <img src="/images/61psstvt9NL._AC_SL1500_.jpg" class="card-img-top img-fluid card-2-img"
+                            alt="...">
+                        <div class="card-body ps-3">
+                            <h6 class="card-title text-capitalize ">Stainless Steel Pet Bowl Regular Non Skid.
+                            </h6>
+                            <p class="card-text text-uppercase">85 egp<small><del class="ps-2">100egp</del></small></p>
+                            <button class="btn btn-info text-capitalize">buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 pt-4">
+                    <div class="card card-3"data-aos="zoom-in-up" data-aos-duration="2500">
+                        <img src="/images/w-e7d07a21-29c7-443f-8684-6a71e5dd5290ea95221f446a06ea36bcb960d23581a0_DSC_0071.jpeg"
+                            class="card-img-top img-fluid card-3-img" alt="...">
+                        <div class="card-body ps-3">
+                            <h6 class="card-title text-capitalize ">Pets Republic Indoor And Outdoor Puppy Training
+                                Spray.
+                            </h6>
+                            <p class="card-text text-uppercase">500 egp<small><del class="ps-2">700egp</del></small></p>
+                            <button class="btn btn-info text-capitalize">buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 pt-4">
+                    <div class="card card-4"data-aos="zoom-in-up" data-aos-duration="2500">
+                        <img src="/images/ziggy-pupps2Fmedia2F71HqOWfKQL._AC_SL1500_.jpg"
+                            class="card-img-top img-fluid card-4-img" alt="...">
+                        <div class="card-body ps-3">
+                            <h6 class="card-title text-capitalize ">windmill Cat Toy With LED Light Ball and Catnip
+                                Balls.
+                            </h6>
+                            <p class="card-text text-uppercase">100 egp<small><del class="ps-2">130egp</del></small></p>
+                            <button class="btn btn-info text-capitalize">buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 pt-4">
+                    <div class="card card-5"data-aos="zoom-in-up" data-aos-duration="2500">
+                        <img src="/images/61CjNMLVx1L._AC_SX679_.jpg" class="card-img-top img-fluid card-5-img"
+                            alt="...">
+                        <div class="card-body ps-3">
+                            <h6 class="card-title text-capitalize ">Capsule space backpack pet carrier - pink.
+                            </h6>
+                            <p class="card-text text-uppercase">600 egp<small><del class="ps-2">700egp</del></small></p>
+                            <button class="btn btn-info text-capitalize">buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 pt-4">
+                    <div class="card card-6"data-aos="zoom-in-up" data-aos-duration="2500">
+                        <img src="/images/615Fv7BYJQL._AC_SX679_.jpg" class="card-img-top img-fluid card-6-img"
+                            alt="...">
+                        <div class="card-body ps-3">
+                            <h6 class="card-title text-capitalize ">Pet Playpen for Small Dog.
+                            </h6>
+                            <p class="card-text text-uppercase">500 egp<small><del class="ps-2">550egp</del></small></p>
+                            <button class="btn btn-info text-capitalize">buy</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+<footer class="mt-5">
+    <div class="container-fluid mt-5 text-white bg-dark">
+        <div class="row pt-5">
+            <div class="col-sm-12 pt-5">
+                <h2 class="d-flex justify-content-center pb-1 ali">Pet Shop</h2>
+                <span class="d-flex justify-content-center pb-4 ">
+                    <a href="index.html" class="pe-3 ps-3 a">Home</a>
+                    <a href="#" class="a pe-3 ps-3">Terms Of Us</a>
+                    <a href="#" class="a pe-3 ">&copyOmar Ahmed</a>
+
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
